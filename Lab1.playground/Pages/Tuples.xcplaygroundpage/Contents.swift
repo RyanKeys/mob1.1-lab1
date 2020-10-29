@@ -58,12 +58,13 @@ let yCoord = coordinate.y
 // Write your answers here:
 
 import Foundation // you need Foundation imported for the sqrt() function
-
-
-
-
-
-
+var startCoord: (x:Float,y:Float) = (5.1,8.3)
+var endCoord: (x:Float, y:Float) = (375.0,667.0)
+var distance: Float = sqrt((endCoord.x - startCoord.x)*(endCoord.x - startCoord.x) + (endCoord.y - startCoord.y)*(endCoord.y - startCoord.y))
+var USD: (value:Double, currencyType:String) = (1.00, "USD")
+var CAD: (value:Double,currencyType:String) = ((USD.value * 1.29),"CAD")
+var AUD: (value:Double,currencyType:String) = ((USD.value * 1.36), "AUD")
+print("\(USD.value) \(USD.currencyType) is \(CAD.value) \(CAD.currencyType)")
 
 
 //: [Previous](@previous)    [Next](@next)

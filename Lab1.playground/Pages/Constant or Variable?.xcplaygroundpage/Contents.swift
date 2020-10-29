@@ -11,6 +11,16 @@
  - Goal number of steps: The user's goal for number of steps to take each day
  - Average heart rate: The user's average heart rate over the last 24 hours
  */
+let Name: String = "Ryan"
+print("User probably wont change name (in this case)")
+var Age: Int = 22
+print("Age increments")
+var Steps: Int = 1000 
+print("Steps are variable")
+var GoalSteps: Int = 20000
+print("Also varied depending on user")
+var AvgHeartRate: Int = 70
+print("Also varied depending on user")
 
 
 

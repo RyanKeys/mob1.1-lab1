@@ -90,9 +90,21 @@ resize2(fromWidth: 20, fromHeight: 30, toWidth: 100, toHeight: 400)
 
  */
 // Write your challenge code here:
+func getAreaOf(height: Int, width: Int) -> Int {
+    return height * width
+}
 
+func getPerimeterOf(height: Int, width: Int) -> Int {
+    return (height*2) + (width*2)
+}
 
-
+func getTotalOf(list: Array<Int>) -> Int {
+    var sol: Int = 0
+    for (item) in list {
+        sol = item + sol
+    }
+    return sol
+}
 
 
 

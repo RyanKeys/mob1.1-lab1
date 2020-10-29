@@ -8,7 +8,7 @@ var population: Int = 20
  
  Uncomment the following line to see an error:
  */
-// population = 15.343234
+//population = 15.343234
 /*:
  The error says:
  `Cannot assign value of type 'Double' to type 'Int'.` A `Double` is a number that can have decimal points. We told Swift we were going to give it an `Int`, and instead we gave it a `Double`. Swift is a _statically typed_ language, which means once we declare a variable with a type, it can only hold values of that same type from now on. In this case, we told the compiler that `population` is an `Int`, so we can only store `Int` values in it.
@@ -105,9 +105,12 @@ let radians: Double = Double(angleInDegrees)  * pi / 180.0;
 
 
 // Write a definition for each variable followed by it's type (don't forget the colon!) below.
-
-
-
+var username: String = "RyanKeys"
+var password: String = "password"
+var shoeSize: Float = 10.5
+let gender: Array<Character> = ["M","F","O","N"]
+var over18: Bool = true
+var partyCount: Int = 4
 
 
 
